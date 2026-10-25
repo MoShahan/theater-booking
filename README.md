@@ -8,13 +8,13 @@ A movie theater booking UI built with React and TypeScript. Pick seats on an int
 
 ## Features
 
-- **Interactive seat map** — 8×10 grid with VIP, Premium, and General pricing tiers, color-coded by category
-- **Seat selection** — Toggle available seats, deselect all, and enforce a per-booking seat limit (default: 6)
-- **Adjacency warning** — Alerts when selected seats span multiple rows so groups know they may not sit together
-- **Promo codes** — Percentage and flat discounts with conditional rules (minimum order, category requirements, first-order-only, excluded categories)
-- **Bill breakdown** — Seat costs by category, promo discount, GST, and convenience fee (waived above a threshold)
-- **Multiple bookings** — Confirm a booking, see a summary with booking ID, and book more seats in the same session
-- **Accessibility** — Semantic markup and ARIA labels on key sections
+- **Interactive seat map** - 8×10 grid with VIP, Premium, and General pricing tiers, color-coded by category
+- **Seat selection** - Toggle available seats, deselect all, and enforce a per-booking seat limit (default: 6)
+- **Adjacency warning** - Alerts when selected seats span multiple rows so groups know they may not sit together
+- **Promo codes** - Percentage and flat discounts with conditional rules (minimum order, category requirements, first-order-only, excluded categories)
+- **Bill breakdown** - Seat costs by category, promo discount, GST, and convenience fee (waived above a threshold)
+- **Multiple bookings** - Confirm a booking, see a summary with booking ID, and book more seats in the same session
+- **Accessibility** - Semantic markup and ARIA labels on key sections
 
 ## Tech Stack
 
