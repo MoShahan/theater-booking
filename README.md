@@ -1,6 +1,6 @@
 # Theater Booking
 
-A movie theater booking UI built with React and TypeScript. Pick seats on an interactive grid, apply promo codes, review a full bill breakdown, and confirm bookings — all in the browser with no backend.
+A movie theater booking UI built with React and TypeScript. Pick seats on an interactive grid, apply promo codes, review a full bill breakdown, and confirm bookings - all in the browser with no backend.
 
 **Live demo:** [https://moshahan.github.io/theater-booking/](https://moshahan.github.io/theater-booking/)
 
