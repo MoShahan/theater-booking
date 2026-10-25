@@ -1,8 +1,10 @@
-# Theatre Seats
+# Theater Booking
 
-A movie theatre seat booking UI built with React and TypeScript. Pick seats on an interactive grid, apply promo codes, review a full bill breakdown, and confirm bookings — all in the browser with no backend.
+A movie theater booking UI built with React and TypeScript. Pick seats on an interactive grid, apply promo codes, review a full bill breakdown, and confirm bookings — all in the browser with no backend.
 
-![Theatre Seats booking UI](docs/screenshots/screenshot.png)
+**Live demo:** [https://moshahan.github.io/theater-booking/](https://moshahan.github.io/theater-booking/)
+
+![Theater Booking UI](docs/screenshots/screenshot.png)
 
 ## Features
 
@@ -39,7 +41,7 @@ npm install
 npm run dev
 ```
 
-Open the URL shown in the terminal (typically `http://localhost:5173`).
+Open the URL shown in the terminal (typically `http://localhost:5173/theater-booking/`). The app is served under `/theater-booking/` so local and GitHub Pages paths match.
 
 ### Build
 
@@ -65,6 +67,12 @@ npm run test:run    # single run
 ```bash
 npm run lint
 ```
+
+## Deploy
+
+Pushes to `main` build the app and publish it to GitHub Pages at `/theater-booking/` (not the site root).
+
+In the GitHub repo: **Settings → Pages → Source → GitHub Actions**. GitHub Pages uses the repository name as the URL path, so the repo must be named `theater-booking` for the live URL above to resolve.
 
 ## Project Structure
 
